@@ -1,0 +1,145 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and popup styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 16px;
+    width: 250px;
+    height: 260px;
+}
+
+/* Container for the content */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Title */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+/* Form Group */
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Input fields */
+.input-field {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+/* Add Button */
+.add-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #2980b9;
+}
+
+/* Links Container */
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* Link card styling */
+.link-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.link-card span {
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.link-card button {
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.copy-btn {
+    background-color: #2ecc71;
+}
+
+.copy-btn:hover {
+    background-color: #27ae60;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 24px;
+    font-weight: 500;
+}
+
+.footer p {
+    margin: 0;
+    padding: 8px 0;
+}
+
+/* Styling the clickable name */
+.footer-link {
+    color: #3498db; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.footer-link:hover {
+    color: #2980b9; /* Slightly darker blue on hover */
+}

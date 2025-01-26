@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Links Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Profile Links Manager</h1>
+        
+        <div id="linksContainer" class="links-container">
+            <!-- Links will be dynamically added here -->
+        </div>
+
+        <div class="form-group">
+            <input 
+                type="text" 
+                id="platformInput" 
+                placeholder="Platform Name (e.g., LinkedIn)" 
+                class="input-field"
+            >
+            <input 
+                type="url" 
+                id="linkInput" 
+                placeholder="Profile Link" 
+                class="input-field"
+            >
+            <button 
+                id="addLinkButton" 
+                class="add-button">
+                Add Platform
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with ❤️ by <a href="https://www.linkedin.com/in/omkar-garad-9210b522b/" target="_blank" class="footer-link">Omkar</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
