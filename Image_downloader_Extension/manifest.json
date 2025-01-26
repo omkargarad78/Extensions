@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Dynamic Image Downloader",
+    "version": "1.0",
+    "description": "A tool that dynamically names downloaded images by describing the image's content.",
+    "permissions": ["contextMenus", "downloads", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "assets/icon16.png"
+    },
+    "icons": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }
+  }
+  
